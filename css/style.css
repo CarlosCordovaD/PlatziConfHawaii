@@ -1,0 +1,73 @@
+#header img {
+  width: 90px;
+}
+
+.hero img {
+  height: 70vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: grayscale(70%);
+          filter: grayscale(70%);
+  position: relative;
+}
+
+.hero #carousel {
+  position: relative;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.hero .overlay .container, .hero .overlay .row {
+  height: 100%;
+}
+
+.btn-platzi {
+  background-color: #97c93e;
+  color: white;
+}
+
+.btn-platzi:hover {
+  background-color: #7ba82d;
+  color: white;
+}
+
+#footer {
+  background: -webkit-gradient(linear, left top, right top, from(#1c3643), color-stop(25%, #273b47), to(#1e5372));
+  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
+
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.card {
+  border: 1px solid #ebebeb;
+}
+
+.badge {
+  color: white;
+}
+
+.date {
+  background-color: #343a40;
+  color: white;
+}
+
+.date img {
+  max-width: 100%;
+}
+
+abbr {
+  color: #97c93e;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
